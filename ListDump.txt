@@ -1,0 +1,7 @@
+digraph structs {
+    rankdir=HR;
+Elem1 [shape=Mrecord,label="{data[1], x = 10, next = 2, prev = 0}" ]
+Elem2 [shape=Mrecord,label="{data[2], x = 20, next = 3, prev = 1}" ]
+Elem3 [shape=Mrecord,label="{data[3], x = 30, next = 4, prev = 2}" ]
+Elem4 [shape=Mrecord,label="{data[4], x = 40, next = 5, prev = 3}" ]
+}

@@ -1,0 +1,64 @@
+digraph structs {
+    rankdir=LR;
+Elem0 [shape=Mrecord,label="data[0] | x = -17 | next = 0 | prev = 0}" ]
+Elem1 [shape=Mrecord,label="data[1] | x = 10 | next = 2 | prev = 0}" ]
+Elem2 [shape=Mrecord,label="data[2] | x = 20 | next = 3 | prev = 1}" ]
+Elem3 [shape=Mrecord,label="data[3] | x = 30 | next = 7 | prev = 2}" ]
+Elem4 [shape=Mrecord,label="data[4] | x = 40 | next = 5 | prev = 6}" ]
+Elem5 [shape=Mrecord,label="data[5] | x = 50 | next = 0 | prev = 4}" ]
+Elem6 [shape=Mrecord,label="data[6] | x = 3.5 | next = 4 | prev = 7}" ]
+Elem7 [shape=Mrecord,label="data[7] | x = 3.25 | next = 6 | prev = 3}" ]
+Elem8 [shape=Mrecord,label="data[8] | x = 0 | next = -1 | prev = -1}" ]
+Elem9 [shape=Mrecord,label="data[9] | x = 0 | next = -1 | prev = -1}" ]
+
+Elem0 ->Elem1
+[color=white]
+Elem1 ->Elem2
+[color=white]
+Elem2 ->Elem3
+[color=white]
+Elem3 ->Elem4
+[color=white]
+Elem4 ->Elem5
+[color=white]
+Elem5 ->Elem6
+[color=white]
+Elem6 ->Elem7
+[color=white]
+Elem7 ->Elem8
+[color=white]
+Elem8 ->Elem9
+[color=white]
+Elem0 ->Elem0
+[color="#63c59e"]
+Elem0 ->Elem0
+[color="#4960c8"]
+Elem1 ->Elem2
+[color="#63c59e"]
+Elem1 ->Elem0
+[color="#4960c8"]
+Elem2 ->Elem3
+[color="#63c59e"]
+Elem2 ->Elem1
+[color="#4960c8"]
+Elem3 ->Elem7
+[color="#63c59e"]
+Elem3 ->Elem2
+[color="#4960c8"]
+Elem4 ->Elem5
+[color="#63c59e"]
+Elem4 ->Elem6
+[color="#4960c8"]
+Elem5 ->Elem0
+[color="#63c59e"]
+Elem5 ->Elem4
+[color="#4960c8"]
+Elem6 ->Elem4
+[color="#63c59e"]
+Elem6 ->Elem7
+[color="#4960c8"]
+Elem7 ->Elem6
+[color="#63c59e"]
+Elem7 ->Elem3
+[color="#4960c8"]
+}
